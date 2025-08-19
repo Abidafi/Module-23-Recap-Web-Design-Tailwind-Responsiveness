@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+    <link rel="stylesheet" href="./style/style.css">
     <link rel="shortcut icon" href="images/banner.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -11,7 +12,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
     </style>
 </head>
-<body>
+<body class="manrope-font">
     <!-- Banner Section -->
     <div class="parent_div flex flex-col md:flex-row justify-between min-h-[200px] max-w-[1250px] mx-auto">
         <div class="left_div">
@@ -21,7 +22,7 @@
         </div>
         <div class="right_div relative">
             <img src="./images/banner.png" class="relative top-[120px]" alt="">
-            <div class="flex items-center bg-white w-[255px] h-[100px] rounded-r-lg shadow-md absolute left-[90px]">
+            <div class="flex items-center bg-white w-[255px] h-[100px] rounded-r-lg shadow-md absolute left-[90px] p-5">
                 <span class="text-3xl"><i class="fa-regular fa-star"></i></span>
                 <div class="ml-4">
                     <p class="text-3xl font-bold">5.00</p>
@@ -81,7 +82,7 @@
 
     <!-- Clients Feedback Section  -->
      <div class="parent_div h-[1200px] md:h-[700px] max-w-[1250px] mx-auto mt-[600px] md:mt-24 flex gap-4 p-16 bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-xl flex-col md:flex-row">
-        <div class="left_div h-full md:w-1/2 text-white flex flex-col justify-center">
+        <div class="left_div h-full md:w-1/2 text-white flex flex-col justify-center bg-[url(./images/bg_cup.png)] bg-no-repeat bg-bottom">
             <h1 class="text-[45px] font-bold">Meet Our Super <br> Clients</h1>
             <p class="mt-10 mb-8">There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alteration in some <br> form, by injected humour, or randomised words which don't <br> look even slightly believable.</p>
             <button class="w-[139px] h-[56px] bg-white text-xl font-bold text-[#ff8938] rounded-lg">Show All</button>
@@ -151,7 +152,7 @@
             <img src="./images/cup.png" alt="">
             <div class="flex items-center gap-8">
              <p class="text-[20px]">Ready to get Started?</p>
-             <button class="bg-red-500 p-4">Get Started</button>
+             <button class="bg-gradient-to-r from-[#ff8938] to-[#ff0000] p-3 rounded-lg text-white font-semibold">Get Started</button>
             </div>    
         </div>
 
@@ -181,7 +182,7 @@
         <div>
             <p class="font-semibold text-xl">Subscribe to our <br>newsletter</p>
             <input type="text" placeholder="Email address" class="border-b-2 outline-none pb-2 mt-5">
-            <button class="border-2 w-[30px] h-[30px] rounded-full">></button>
+            <button class="w-[30px] h-[30px] bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-full text-white"><i class="fa-solid fa-angle-right"></i></button>
             <div class="mt-5">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-twitter"></i>
